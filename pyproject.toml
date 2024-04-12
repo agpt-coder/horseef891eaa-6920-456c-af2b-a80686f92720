@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "horse"
+version = "0.1.0"
+description = "To build a tool that returns a random xkcd comic and uses GPT-4-Vision to explain it, we would take the following approach using the specified tech stack: Python, FastAPI, PostgreSQL, and Prisma. Our solution comprises several components to meet the outlined requirements and preferences."
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+bcrypt = "^4.0.0"
+fastapi = "^0.78.0"
+httpx = "^0.23.0"
+passlib = "^1.7.4"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
